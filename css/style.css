@@ -113,7 +113,7 @@ footer p {
 footer a {
     margin-right: 35px;
 }
-#github:hover, #linkedin:hover {
+#github:hover, #linkedin:hover, #instagram:hover {
     transition: 0.5s;
     transform: scale(1.1);
     opacity: 70%;
