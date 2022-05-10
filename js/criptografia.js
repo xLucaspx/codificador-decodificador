@@ -42,12 +42,35 @@ function escreveDecodificado() {
 }
 
 var inputTexto = document.querySelector(".input-texto");
+var resultado = document.querySelector(".resultado");
 
 var btnCodificar = document.querySelector(".btn-codificar");
 var btnDecodificar = document.querySelector(".btn-decodificar");
 
-var resultado = document.querySelector(".resultado");
+var mensagensErro = document.querySelector(".mensagens-erro");
 
+btnCodificar.onclick = function() {
+    var erros = validaTexto(inputTexto);
 
-btnCodificar.onclick = escreveCodificado;
-btnDecodificar.onclick = escreveDecodificado;
+    if(erros.length > 0) {
+        mostraErros(erros);
+        resultado.textContent = "";
+        return;
+    }
+
+    escreveCodificado();
+    mensagensErro.innerHTML = "";
+}
+
+btnDecodificar.onclick = function() {
+    var erros = validaTexto(inputTexto);
+
+    if(erros.length > 0) {
+        mostraErros(erros);
+        resultado.textContent = "";
+        return;
+    }
+    
+    escreveDecodificado();
+    mensagensErro.innerHTML = "";
+}

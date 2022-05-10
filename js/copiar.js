@@ -5,4 +5,5 @@ btnCopiar.onclick = function() {
     document.execCommand("copy");
     inputTexto.value = "";
     inputTexto.focus();
+    resultado.textContent = "";
 }

@@ -33,12 +33,13 @@ textarea {
 .informacao {
     margin-left: 15px;
 }
-#exclamacao {
-    float: left;
-    margin-top: 1.5px;
+.mensagens-erro li::before {
+    content: url(/img/exclamation.png);
+    width: 16px;
+    height: 17px;
 }
-h6 {
-    font-size: 15px;
+.mensagens-erro li {
+    font-size: 20px;
     margin-left: 25px;
 }
 .botoes {
