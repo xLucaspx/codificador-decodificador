@@ -48,14 +48,6 @@ var btnDecodificar = document.querySelector(".btn-decodificar");
 
 var resultado = document.querySelector(".resultado");
 
-var btnCopiar = document.querySelector(".btn-copiar");
 
 btnCodificar.onclick = escreveCodificado;
 btnDecodificar.onclick = escreveDecodificado;
-
-btnCopiar.onclick = function() {
-    resultado.select();
-    document.execCommand("copy");
-    inputTexto.value = "";
-    inputTexto.focus();
-}
