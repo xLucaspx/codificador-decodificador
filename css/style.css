@@ -1,0 +1,119 @@
+*, footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+}
+body {
+    background: linear-gradient(#eff1fa, #e9ecf8, #609ed4);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 40px;
+}
+h1:hover {
+    transition: 0.2s;
+    opacity: 50%;
+}
+.main {
+    display: flex;
+    margin: 0 40px 50px 40px;
+}
+textarea {
+    resize: none;
+}
+.input-texto {
+    margin-top: 85px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+.informacao {
+    margin-left: 15px;
+}
+#exclamacao {
+    float: left;
+    margin-top: 1.5px;
+}
+h6 {
+    font-size: 15px;
+    margin-left: 25px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+button {
+    width: 325px;
+    height: 60px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 3px 5px 12px #356ea9;
+}
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 80%;
+}
+.btn-codificar {
+    background-color: #0a3871;
+    color: white;
+}
+.btn-decodificar {
+    margin-left: 30px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+.container {
+    background-color: white;
+    margin: 20px 0 0 75px;
+    border-radius: 30px;
+    padding: 2rem;
+    height: 40rem;
+    width: 23rem;
+    text-align: center;
+    box-shadow: 12px 18px 35px #356ea9;
+}
+.resultado {
+    position: relative;
+    border-color: transparent;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+.resultado:placeholder-shown {
+    background-image: url("/img/resultado-bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.resultado:not(:placeholder-shown) {
+    background-color: white;
+}
+.btn-copiar {
+    background-color: white;
+    color: #0a3871;
+}
+footer {
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+footer * {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer p {
+    margin-right: 50px;
+}
+footer a {
+    margin-right: 35px;
+}
+#github:hover, #linkedin:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 70%;
+}

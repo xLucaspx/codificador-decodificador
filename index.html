@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Codificador e decodificador de texto. Este site foi um challenge do programa ONE 
+        (Oracle Next Education) desenvolvido para aprimorar os conhecimentos em lógica de programação, HTML, CSS e JavaScript.">
+
+        <title>Codificador de texto</title>
+        <link rel="icon" href="keys-icon.ico" type="image/x-icon">
+
+
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">
+                    <img src="/img/logo-alura.png" alt="Logo da Alura."
+                    width="120" height="48" id="logo">
+                </a>
+            </h1>     
+        </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+
+                <div class="informacao">
+                    <img src="/img/exclamation.png" alt="Ponto de exclamação dentro de um círculo."
+                    width="16" height="17" id="exclamacao">
+
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar">Codificar</button>
+                    <button type="button" class="btn-decodificar">Decodificar</button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+                <button type="button" class="btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Minhas redes: </p>
+            
+            <a href="https://github.com/xLucaspx" title="xLucaspx | GitHub" target="_blank">            
+                <img src="/img/logo-github.png" alt="Logo do GitHub em formato circular."
+                width="50" height="50" id="github">
+            </a>
+             <a href="https://www.linkedin.com/in/xlucaspx/" title="Lucas da Paz Oliveira | LinkedIn" target="_blank">
+                <img src="/img/logo-linkedin.png" alt="Logo do LinkedIn em formato circular"
+                width="50" height="50" id="linkedin">
+            </a>
+        </footer>
+
+        <script src="/js/script.js"></script>
+    </body>
+</html>
