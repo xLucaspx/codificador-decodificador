@@ -37,6 +37,7 @@ textarea {
     content: url(/img/exclamation.png);
     width: 16px;
     height: 17px;
+    vertical-align: middle;
 }
 .mensagens-erro li {
     font-size: 20px;
@@ -45,7 +46,7 @@ textarea {
 .botoes {
     display: flex;
     flex-direction: row;
-    margin-top: 35px;
+    margin-top: 57px;
 }
 button {
     width: 325px;
@@ -129,4 +130,77 @@ footer {
     font-weight: bold;
     color: white;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 20px;
+    }
+    header {
+        display: block;
+        margin: 35px 0 0 25px;
+    }
+    .main {
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input-texto {
+        margin-top: 5rem;
+        max-width: 80%;
+        height: 20%;
+    }
+    .informacao {
+        margin: 0 auto;
+    }
+    .mensagens-erro li {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .botoes {
+        display: inline;
+        margin: 15px auto;
+    }
+    button {
+        width: 300px;
+        height: 50px;
+        font-weight: bold;
+    }
+    button:hover {
+        transition: 0.5;
+        transform: none;
+        opacity: 80%;
+    }
+    .btn-codificar, .btn-decodificar {
+        margin: 15px auto;
+    }
+    .container {
+        margin: 20px auto;
+        width: 75%;
+        height: 30%;
+        padding: 1rem;
+    }
+    .resultado {
+        width: 90%;
+        height: 30%;
+    }
+    .resultado:placeholder-shown {
+        background-image: url(/img/resultado-bg-mw480.png);
+    }
+    footer {
+        margin: 2rem auto;
+    }
+    .redes {
+        font-size: 16px;
+    }
+    .redes p {
+        margin-bottom: 10px;
+    }
+    .redes a {
+        margin: 5px;
+    }
+    .credito {
+        font-size: 14px;
+        margin-top: 10px;
+    }
 }
