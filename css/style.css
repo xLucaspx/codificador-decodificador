@@ -34,7 +34,7 @@ textarea {
     margin-left: 15px;
 }
 .mensagens-erro li::before {
-    content: url(/img/exclamation.png);
+    content: url(../img/exclamation.png);
     width: 16px;
     height: 17px;
     vertical-align: middle;
@@ -87,7 +87,7 @@ button:hover {
     padding: 0.5rem;
 }
 .resultado:placeholder-shown {
-    background-image: url("/img/resultado-bg.png");
+    background-image: url(../img/resultado-bg.png);
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -185,7 +185,7 @@ footer {
         height: 30%;
     }
     .resultado:placeholder-shown {
-        background-image: url(/img/resultado-bg-mw480.png);
+        background-image: url(../img/resultado-bg-mw480.png);
     }
     footer {
         margin: 2rem auto;
