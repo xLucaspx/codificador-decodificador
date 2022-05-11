@@ -18,7 +18,7 @@ Sempre tento manter meu código o mais organizado possível, para facilitar a co
 - As cores do fundo (com um gradiente de azul-claro para azul-escuro) e das sombras;
 - As animações dos *links* e dos botões (usei ***transform*** e ***opacity***);
 - O ponto de exclamação antes das mensagens de erro (***::before***) e a imagem de fundo da *textarea* quando não há texto inserido (***:placeholder-shown***);
-- O *layout* da página para dispositivos com até *480px* de largura; <br><br>
+- O *layout* da página para dispositivos móveis com até *800px* de largura; <br><br>
 **No JavaScript:**
 - Criei a função de codificar separando os caracteres do texto em um *array* (***texto.value.split***), substituindo com ***forEach*** e retornando com ***.join("")***;
 - Criei a função de decodificar utilizando um *array* com a "chave" da codificação e utilizando ***replaceAll(chave[i][1])***;

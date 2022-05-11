@@ -132,7 +132,7 @@ footer {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     * {
         font-size: 20px;
     }
@@ -186,6 +186,10 @@ footer {
     }
     .resultado:placeholder-shown {
         background-image: url(../img/resultado-bg-mw480.png);
+    }
+    .btn-copiar {
+        display: block;
+        margin: 0 auto;
     }
     footer {
         margin: 2rem auto;
