@@ -8,6 +8,7 @@ Foram disponibilizados *cards* no *Trello* para orientar e gerenciar o desenvolv
 Sempre tento manter meu código o mais organizado possível, para facilitar a compreensão e o acesso, caso algo precise ser alterado.
 <br>
 **Na estrutura HTML modifiquei:**
+- o ícone, o título e a descrição da página;
 - o *header*, onde coloquei o *link* da página no logo. Assim, ao clicar no logo, a página é recarregada (eu geralmente faço isso pois acho uma funcionalidade interessante);
 - o aviso de "apenas letras minúsculas e sem acento" para aparecer somente se o usuário digitar letras maiúsculas ou acentuadas;
 - a *textarea* que mostra o resultado da codificação/decodificação para ***readonly***, pois caso o usuário digitasse algo algo nela (com ou sem intenção) e depois tentasse fazer a codificação/decodificação, o texto não era mostrado;
