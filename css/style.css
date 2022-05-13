@@ -132,7 +132,7 @@ footer {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
     * {
         font-size: 20px;
     }
@@ -162,7 +162,7 @@ footer {
         margin: 15px auto;
     }
     button {
-        width: 300px;
+        width: 60%;
         height: 50px;
         font-weight: bold;
     }
@@ -189,6 +189,7 @@ footer {
     }
     .btn-copiar {
         display: block;
+        width: 80%;
         margin: 0 auto;
     }
     footer {
