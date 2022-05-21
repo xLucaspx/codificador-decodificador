@@ -34,10 +34,16 @@ function decodifica(texto) {
 }
 
 function escreveCodificado() {
+    var btnCopiar = document.querySelector(".btn-copiar");
+    btnCopiar.classList.remove("invisivel");
+    
     resultado.textContent = codifica(inputTexto);
 }
 
 function escreveDecodificado() {
+    var btnCopiar = document.querySelector(".btn-copiar");
+    btnCopiar.classList.remove("invisivel");
+
     resultado.textContent = decodifica(inputTexto);
 }
 

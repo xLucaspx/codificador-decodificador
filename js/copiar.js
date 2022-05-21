@@ -6,4 +6,5 @@ btnCopiar.onclick = function() {
     inputTexto.value = "";
     inputTexto.focus();
     resultado.textContent = "";
+    btnCopiar.classList.add("invisivel");
 }

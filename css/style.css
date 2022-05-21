@@ -25,6 +25,7 @@ textarea {
 }
 .input-texto {
     margin-top: 85px;
+    margin-left: 15px;
     background-color: transparent;
     border-color: transparent;
     border-radius: 30px;
@@ -47,6 +48,7 @@ textarea {
     display: flex;
     flex-direction: row;
     margin-top: 57px;
+    margin-left: 15px;
 }
 button {
     width: 325px;
@@ -72,7 +74,7 @@ button:hover {
 }
 .container {
     background-color: white;
-    margin: 20px 0 0 75px;
+    margin: 20px auto;
     border-radius: 30px;
     padding: 2rem;
     height: 40rem;
@@ -93,6 +95,9 @@ button:hover {
 }
 .resultado:not(:placeholder-shown) {
     background-color: white;
+}
+.invisivel {
+    display: none;
 }
 .btn-copiar {
     background-color: white;
