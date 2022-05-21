@@ -167,7 +167,6 @@ footer {
         margin: 15px auto;
     }
     button {
-        width: 60%;
         height: 50px;
         font-weight: bold;
     }
@@ -177,6 +176,7 @@ footer {
         opacity: 80%;
     }
     .btn-codificar, .btn-decodificar {
+        width: 60%;
         margin: 15px auto;
     }
     .container {
@@ -196,6 +196,9 @@ footer {
         display: block;
         width: 80%;
         margin: 0 auto;
+    }
+    .invisivel {
+        display: none;
     }
     footer {
         margin: 2rem auto;
