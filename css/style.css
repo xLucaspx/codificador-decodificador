@@ -18,7 +18,7 @@ h1:hover {
 }
 .main {
     display: flex;
-    margin: 0 40px 50px 40px;
+    justify-content: space-around;
 }
 textarea {
     resize: none;
@@ -74,11 +74,10 @@ button:hover {
 }
 .container {
     background-color: white;
-    margin: 20px auto;
+    margin: 20px 0;
     border-radius: 30px;
     padding: 2rem;
     height: 40rem;
-    width: 23rem;
     text-align: center;
     box-shadow: 12px 18px 35px #356ea9;
 }
